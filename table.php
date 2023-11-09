@@ -12,7 +12,7 @@ try {
     foreach ($data[0] as $key => $value) {
         echo '<th>' . $key . '</th>';
     }
-    echo '<th><input type="checkbox"></th>';
+    echo '<th>x</th>';
     echo '</tr>';
 
     foreach ($data as $row) {
