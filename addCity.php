@@ -10,5 +10,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $stmt->execute([$city, $haut, $bas]);
 
     header("Location: index.php");
-    exit();
+    exit;
 }
