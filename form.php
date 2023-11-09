@@ -1,5 +1,5 @@
 <h2>Add a city :</h2>
-<form action="addCity.php" method="POST">
+<form action="addCity.php" class="addForm" method="POST">
     <label for="city">City :</label>
     <input type="text" name="city" id="city" placeholder="Ex: Arlon" required>
 
