@@ -23,6 +23,7 @@ body {
   flex-direction: column;
   padding-bottom: 1rem;
 }
+
 .addForm > input {
   height: 2rem;
 }
