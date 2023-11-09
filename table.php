@@ -10,6 +10,7 @@ try {
     foreach ($data[0] as $key => $value) {
         echo '<th>' . $key . '</th>';
     }
+    echo '<th><input type="checkbox"></th>';
     echo '</tr>';
 
     foreach ($data as $row) {
@@ -17,6 +18,7 @@ try {
         foreach ($row as $value) {
             echo '<td>' . $value . '</td>';
         }
+        echo '<td><input type="checkbox" id="check" name="check" checked></td>';
         echo '</tr>';
     }
     echo '</table>';
